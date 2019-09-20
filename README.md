@@ -3,6 +3,8 @@ This project is done using selenium testng- basic.
 ----As the requirement was to validate the response.
 ----This Script validates only to check if search is successful. Therefore checked for Best departing flight.
 
+Thread.sleep were used instead of implicit wait as google flights page took more time to load and selenium was throwing errors due to this.
+
 Script:
 
 
